@@ -16,10 +16,13 @@ This repo contains the notebook I used to clean the data, inspect features, and 
 1. Download the Zomato dataset from Kaggle.  
 2. Create a `data/` folder in the project and put the CSV there as `data/zomato.csv`.  
 3. (Optional) Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # mac/linux
-   venv\Scripts\activate      # windows
+  ```bash
+python -m venv venv
+# mac / linux
+source venv/bin/activate
+# windows (PowerShell)
+venv\Scripts\Activate.ps1
+
 
 ---
 
@@ -37,10 +40,11 @@ pip install -r requirements.txt
 
 ## Project structure
 zomato-dataset-eda/
-├── zomato_dataset_code.ipynb        # main notebook (cleaning + EDA)
-├── important figures/               # key plots produced by the notebook
+├── zomato_code.ipynb
+├── figures/
 ├── README.md
 └── requirements.txt
+
 
 ---
 
